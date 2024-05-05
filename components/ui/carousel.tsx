@@ -170,7 +170,7 @@ const CarouselDots = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLD
     console.log(selectedIndex);
     return (
       <div
-        className={cn('embla__dots absolute z-50 -mt-5 flex w-full items-center justify-center gap-2', className)}
+        className={cn('embla__dots absolute z-50 -mt-5 flex w-full items-center justify-center gap-1', className)}
         {...props}
       >
         {api?.scrollSnapList().map((_, index) => (
@@ -178,7 +178,7 @@ const CarouselDots = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLD
             key={index}
             className={cn(
               'embla__dot h-2 w-2 px-[4px] py-[4px] rounded-full ',
-              index === selectedIndex ? 'embla__dot--selected ' : 'bg-primary-foreground'
+              index === selectedIndex ? 'bg-white' : 'bg-gray-300'
             )}
             onClick={() => scrollTo(index)}
           />
