@@ -40,8 +40,8 @@ export default function Home() {
                   <Image src={CarouselImg5} width={300} height={300} alt="Carousel 5" />
                 </CarouselItem>
               </CarouselContent>
-              <CarouselPrevious className="absolute top-[150px] left-1" />
-              <CarouselNext className="absolute top-[150px] right-1" />
+              <CarouselPrevious />
+              <CarouselNext />
               <CarouselDots className="mx-auto" />
             </Carousel>
           </CardHeader>
@@ -73,8 +73,8 @@ export default function Home() {
                   <Image src={CarouselImg5} width={300} height={300} alt="Carousel 5" />
                 </CarouselItem>
               </CarouselContent>
-              <CarouselPrevious className="absolute top-[150px] left-1" />
-              <CarouselNext className="absolute top-[150px] right-1" />
+              <CarouselPrevious />
+              <CarouselNext />
               <CarouselDots className="mx-auto" />
             </Carousel>
           </CardHeader>
@@ -106,8 +106,8 @@ export default function Home() {
                   <Image src={CarouselImg5} width={300} height={300} alt="Carousel 5" />
                 </CarouselItem>
               </CarouselContent>
-              <CarouselPrevious className="absolute top-[150px] left-1" />
-              <CarouselNext className="absolute top-[150px] right-1" />
+              <CarouselPrevious />
+              <CarouselNext />
               <CarouselDots className="mx-auto" />
             </Carousel>
           </CardHeader>
